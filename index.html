@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forksez</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header">
+    <h1>forksez</h1>
+    <button id="theme-toggle" class="theme-toggle">🌙 Ночная тема</button>
+</div>
+
+<div class="container">
+    <div class="buttons">
+        <a href="https://t.me/steamwings" target="_blank" class="button">📰 SW</a>
+        <a href="https://t.me/XQ_op" target="_blank" class="button">💬 TG</a>
+        <a href="https://steamcommunity.com/id/ptakqqsteam/" target="_blank" class="button">🎮 Steam</a>
+    </div>
+</div>
+
+<audio id="background-music" src="MaskOff.mp3" autoplay loop></audio>
+
+<!-- Ползунок громкости -->
+<div class="volume-control">
+    <label for="volume-slider"></label>
+    <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.5">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
